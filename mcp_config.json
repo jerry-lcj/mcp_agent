@@ -1,0 +1,45 @@
+{
+    "seekeasy": {
+        "command": "npx",
+        "args": [
+            "-y", "@smithery/cli@latest",
+            "run", "@seekeasy/seekeasy",
+            "--key", "be79a40a-d3db-4165-b310-685474efa165"
+        ]
+    },
+    "pubmed-mcp-server": {
+        "command": "npx",
+        "args": [
+            "-y",
+            "@smithery/cli@latest",
+            "run",
+            "@JackKuo666/pubmed-mcp-server",
+            "--key",
+            "be79a40a-d3db-4165-b310-685474efa165"
+        ]
+    },
+    "excel": {
+            "command": "npx",
+            "args": ["--yes", "@negokaz/excel-mcp-server"],
+            "env": {
+                "EXCEL_MCP_PAGING_CELLS_LIMIT": "4000"
+            }
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/Users/jerrylcj/Desktop"
+      ]
+    },
+    "playwright": {
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest",
+        "--isolated"
+      ]
+    }
+    
+    
+}
