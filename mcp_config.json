@@ -4,7 +4,7 @@
         "args": [
             "-y", "@smithery/cli@latest",
             "run", "@seekeasy/seekeasy",
-            "--key", "be79a40a-d3db-4165-b310-685474efa165"
+            "--key", "your smithery key here"
         ]
     },
     "pubmed-mcp-server": {
@@ -15,7 +15,7 @@
             "run",
             "@JackKuo666/pubmed-mcp-server",
             "--key",
-            "be79a40a-d3db-4165-b310-685474efa165"
+            "your smithery key here"
         ]
     },
     "excel": {
